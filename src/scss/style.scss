@@ -1,0 +1,49 @@
+$white: 			#FFF;
+$darkish-blue: 		#00479f;
+$emailIconSrc: 		'/images/login/group.svg';
+$passwordIconSrc: 	'/images/login/group-2.svg';
+
+body { 
+  margin: 0; 
+}
+
+#app {
+	text-align: center;
+}
+
+#login__inputEmail {
+	width: 300px;
+	height: 55px;
+	border-radius: 100px;
+	border: solid 1px $darkish-blue;
+	padding-left: 50px;
+	background: url($emailIconSrc) no-repeat scroll 15px 17px;
+	background-size: 20px 20px;
+	text-transform: uppercase;
+}
+
+#login__inputPassword {
+	width: 300px;
+	height: 55px;
+	border-radius: 100px;
+	border: solid 1px $darkish-blue;
+	padding-left: 50px;
+	background: url($passwordIconSrc) no-repeat scroll 15px 17px;
+	background-size: 20px 20px;
+	text-transform: uppercase;
+}
+
+#login__inputButton {
+	width: 300px;
+ 	height: 55px;
+  	border-radius: 100px;
+  	color: $white;
+  	background-color: $darkish-blue;
+  	text-transform: uppercase;
+}
+
+#help {
+}
+
+#footer {
+}
