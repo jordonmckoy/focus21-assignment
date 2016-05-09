@@ -16,8 +16,17 @@ var config = {
         test : /\.jsx?/,
         include : APP_DIR,
         loader : 'babel'
+      },
+      {
+        test: /\.css$/,
+        loader: "style!css"
       }
     ]
+  },
+  externals : {
+    'react/addons': true,
+    'react/lib/ExecutionEnvironment': true,
+    'react/lib/ReactContext': true
   }
 };
 

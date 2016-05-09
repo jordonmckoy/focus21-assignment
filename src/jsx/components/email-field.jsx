@@ -11,7 +11,7 @@ class userField extends React.Component {
         var regex = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
         if (regex.test(e.target.value)) {
             console.log('Valid Email');
-            if (e.target.value == "jeff_aramini@ihealthsolutions.next" || e.target.value == "test@test.com") {
+            if (e.target.value == "jeff_aramini@ihealthsolutions.net" || e.target.value == "test@test.com") {
                 // call redux action
                 this.props.dispatch({
                     type: 'VALID_EMAIL',

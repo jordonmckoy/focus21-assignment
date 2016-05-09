@@ -1,5 +1,3 @@
-import { VALID, LOGGED_OUT } from './../actions/action.jsx'
-
 const userReducer = function(state = {status: 'LOGGED_OUT',filter: 'email'}, action) {
     if (typeof state === 'undefined') {
         return Object.assign({}, state, {
