@@ -28588,87 +28588,87 @@
 			value: function render() {
 				return _react2.default.createElement(
 					'div',
-					null,
+					{ className: 'app__grid' },
 					_react2.default.createElement(
 						'div',
-						{ className: 'row app__grid_row' },
+						{ className: 'row app__grid__row' },
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/group-2.svg'
 							})
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/phc.svg'
 							})
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/immu.svg'
 							})
 						)
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'row app__grid_row' },
+						{ className: 'row app__grid__row' },
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/phc.svg'
 							})
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/group-2.svg'
 							})
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/immu.svg'
 							})
 						)
 					),
 					_react2.default.createElement(
 						'div',
-						{ className: 'row app__grid_row' },
+						{ className: 'row app__grid__row' },
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/immu.svg'
 							})
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/phc.svg'
 							})
 						),
 						_react2.default.createElement(
 							'div',
-							{ className: 'col-md-4 app__grid_row__block' },
-							_react2.default.createElement('span', { className: 'app__grid_row__block__helper' }),
-							_react2.default.createElement('img', { className: 'app__grid_row__block__img',
+							{ className: 'col-md-4 app__grid__row__block' },
+							_react2.default.createElement('span', { className: 'app__grid__row__block__helper' }),
+							_react2.default.createElement('img', { className: 'app__grid__row__block__img',
 								src: './../../../images/apps/group-2.svg'
 							})
 						)
@@ -28992,7 +28992,7 @@
 	            var regex = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
 	            if (regex.test(e.target.value)) {
 	                console.log('Valid Email');
-	                if (e.target.value == "jeff_aramini@ihealthsolutions.next" || e.target.value == "test@test.com") {
+	                if (e.target.value == "jeff_aramini@ihealthsolutions.net" || e.target.value == "test@test.com") {
 	                    // call redux action
 	                    this.props.dispatch({
 	                        type: 'VALID_EMAIL',
