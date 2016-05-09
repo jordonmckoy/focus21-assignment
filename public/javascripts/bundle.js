@@ -39103,7 +39103,7 @@
 	        value: function render() {
 	            return _react2.default.createElement(
 	                "a",
-	                { id: "help", href: "" },
+	                { id: "help" },
 	                "Need Help?"
 	            );
 	        }
